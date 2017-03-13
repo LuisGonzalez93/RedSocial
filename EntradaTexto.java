@@ -6,6 +6,7 @@ public class EntradaTexto
     private String usuario;
     private String mensaje;
     private LocalDateTime momentoPublicacion;
+    private int likes;
     private ArrayList<String> comentarios;
     
     public EntradaTexto(String usuario, String mensaje)
